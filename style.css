@@ -1,0 +1,108 @@
+body{
+   
+}
+
+
+.tshirt_object{
+    margin-top: 20px;
+    margin-left: 20px;
+    padding: 10px;
+     width: 600px;
+     height: auto;
+     border: 1px solid;
+     border-color :#5ABE60;
+     border-radius: 2%;
+     justify-content: center;
+     float: left;
+}
+
+#image_t-shirt{
+    justify-content: center;
+     left: 30px;
+     margin-left: 25px;
+}
+
+.select_thsirt{
+    width: 50px;
+    height: 50px;
+    justify-content: center;
+}
+
+#select_object_thsirt{
+    text-align: center;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+    
+    width: 50px;
+    height: 50px;
+    border: 1px solid #dbd6d6;
+    border-radius: 2%;
+}
+
+.details{
+    margin-top: 20px;
+   width: 600px;
+   height: auto;
+   float: left;
+}
+
+.alert-danger{
+    display: none;
+}
+
+.select_t-shirt_object{
+float: left;
+}
+
+.details{
+    float: left;
+    margin-left: 30px;
+}
+
+.btn-plus-minus{
+    width: 24px;
+    height: 24px;
+    border: 1px solid #5ABE60;
+    float: left;
+}
+
+.view-total-harga{
+    margin-left: 10px;
+}
+p .harga-total p{
+    float: left;
+}
+
+#price{
+    color: #5ABE60;
+}
+
+.jumlah{
+    color: center;
+    width: 30px;
+    font-weight: 100;
+    font-family: monospace;
+    text-align: center;
+float: left;
+}
+
+.btn-keranjang{
+    width: 100px;
+    height: 40px;
+}
+.btn-beli{
+    width: 100px;
+    height: 40px;
+}
+.btn-pesan{
+    width: 100px;
+    height: 40px;
+}
+
+.pengirim{
+    width: 150px;
+    height: auto;
+    float: left;
+   
+}

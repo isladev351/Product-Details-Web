@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picker Baju</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Link</a>
+            </li>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item" href="#">Another action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Something else here</a>
+              </div>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
+          <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+          </form>
+        </div>
+      </nav>
+
+
+
+
+    
+     <div class="tshirt_object">
+         <img src="img/baju1.jpg" alt="" id="image_t-shirt">
+
+         <!-- select object details -->
+        <div id="select_object_thsirt" type="select">
+            <img src="img/baju1.jpg" alt="" class="select_thsirt">
+        </div>
+     </div>
+     
+     
+
+     <div class="details">
+           <div class="tittle">
+               <h1 id="tittle_product">Baju Warna Biru Polos | Buat Desain anda sendiri</h1>
+           </div>
+           <!-- stock barang -->
+
+           <div class="details-price">
+               <br>
+               <div class="alert alert-warning" role="alert" style="display: none; position: relative;">
+                   Anda Melebihi batas Minimum Pembelian!
+               </div>
+
+                <h4 id="price">Rp 25.000/pcs</h4>
+               
+                    <p>stock
+                    1000
+                    </p> 
+               
+                <button class="btn-plus-minus" type="button" onclick="tambah()">
+                    +
+                </button>
+                <div class="jumlah">1</div>
+                <button class="btn-plus-minus" type="button" onclick="kurang()" >
+                    -
+                </button>
+                <small class="ml-2"> min.1 pcs</small>
+            </div>
+
+            <div class="select-type">
+
+            </div>
+
+           <br><br>
+           <div class="pengiriman">
+            <div class="pengirim">
+                <small>lokasi Pengirim</small><br>
+                <p>Jakarta</p>    
+            </div>
+            <div class="penerima float-right">
+                <small style="margin-left: 13px;">Tujuan Pengiriman</small><br>
+                <button type="button" class="btn btn-light text-right" data-toggle="collapse" data-target="#collapseExample"> Pilih Lokasi Pengiriman</button>
+
+            </div>
+
+           </div>
+        
+         
+          
+           <!-- button -->
+           <button type="button" class="btn  mb-2 text-white " style="background-color: #f24f0f;width: 37%;">Beli Sekarang</button>
+           <button type="button" class="btn btn-outline-warning" >Tambah keranjang</button>
+           <button type="button" class="btn btn-outline-primary">Pesan</button>
+           <br>
+
+           <!-- search location collapse -->
+           <div class="collapse mt-2" id="collapseExample">
+            <div class="card card-body">
+                <input class="form-control mr-sm-2" type="search" placeholder="Cari Lokasi Anda" aria-label="Search">
+            </div>
+          </div>
+
+          <div class="kurir">
+              <p>Kurir Tersedia</p>
+            <img src="https://www.jet.co.id/static/images/logo.png" alt="..." class="rounded-circle">
+          </div>
+          
+
+
+
+
+
+          
+           
+     </div>
+<script src="main.js"></script>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+</body>
+</html>
